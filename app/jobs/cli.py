@@ -1,5 +1,6 @@
 import typer
 from app.jobs.ai import hello_world
+from app.jobs.ingest_pdf import pdf
 
 cli = typer.Typer()
 
@@ -10,8 +11,8 @@ def print_hello_world():
 
 
 @cli.command()
-def print_hello_world_again():
-    hello_world()
+def ingest_pdf():
+    pdf()
 
 
 if __name__ == "__main__":
