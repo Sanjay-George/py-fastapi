@@ -1,17 +1,17 @@
 import typer
-from app.jobs.ai import run_batch_job, run_batch_job2
+from app.jobs.ai import hello_world
 
 cli = typer.Typer()
 
 
 @cli.command()
-def batch():
-    run_batch_job()
+def print_hello_world():
+    hello_world()
 
 
 @cli.command()
-def batch2():
-    run_batch_job2()
+def print_hello_world_again():
+    hello_world()
 
 
 if __name__ == "__main__":

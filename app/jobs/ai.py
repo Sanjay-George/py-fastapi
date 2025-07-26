@@ -1,8 +1,3 @@
-def run_batch_job():
+def hello_world():
     # Job logic here
-    print("Job 1 running!")
-
-
-def run_batch_job2():
-    # Job logic here
-    print("Job 2 running!")
+    print("Hello, World!")
