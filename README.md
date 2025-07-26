@@ -1,4 +1,4 @@
-### Contributing
+### Setup
 
 1. Create environment
 ```bash
